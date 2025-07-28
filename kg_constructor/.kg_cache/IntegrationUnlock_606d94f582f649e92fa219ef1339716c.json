@@ -1,0 +1,1 @@
+{"schema_fp": "606d94f582f649e92fa219ef1339716c", "description": "IntegrationUnlock: Records of integration unlock events, including timestamps, location, cell identifiers, unique IDs, data type, version, remaining activations, unlock ID, expiration date, and activation state."}

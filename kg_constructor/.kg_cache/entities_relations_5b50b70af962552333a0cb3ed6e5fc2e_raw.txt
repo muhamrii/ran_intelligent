@@ -1,0 +1,155 @@
+```json
+{
+  "entities": [
+    {
+      "label": "HcRule",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "severity",
+        "recommendedAction",
+        "hcRuleId",
+        "administrativeState",
+        "ruleType",
+        "categoryList",
+        "name",
+        "description",
+        "inputParameters",
+        "outputParameters"
+      ]
+    },
+    {
+      "label": "BrmRollbackAtRestore",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "timeRemainingBeforeRollback",
+        "brmRollbackAtRestoreId",
+        "timeAllowedBeforeRollback"
+      ]
+    },
+    {
+      "label": "BrmBackupManager",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "backupDomain",
+        "progressReport",
+        "brmBackupManagerId",
+        "autoExport",
+        "autoExportUri",
+        "manualBackupName",
+        "autoExportPassword",
+        "backupType"
+      ]
+    },
+    {
+      "label": "HwItem",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "additionalInformation",
+        "serialNumber",
+        "equipmentMoRef",
+        "dateOfLastService",
+        "hwType",
+        "hwUnitLocation",
+        "productData",
+        "manualDataEntry",
+        "vendorName",
+        "hwCapability",
+        "hwModel",
+        "hwName",
+        "licMgmtMoRef",
+        "swInvMoRef",
+        "hwItemId"
+      ]
+    },
+    {
+      "label": "AntennaUnitGroup",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "positionRef",
+        "positionInformation",
+        "antennaUnitGroupId"
+      ]
+    },
+    {
+      "label": "Cabinet",
+      "properties": []
+    },
+    {
+      "label": "EcBus",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "ecBusConnectorRef",
+        "ecBusId",
+        "equipmentSupportFunctionRef",
+        "ecBusConnectionType"
+      ]
+    },
+    {
+      "label": "PowerDistribution",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "userLabel",
+        "systemUndervoltageAlarmLevel",
+        "systemOvervoltageAlarmLevel",
+        "availabilityStatus",
+        "powerDistributionId"
+      ]
+    },
+    {
+      "label": "PowerSupply",
+      "properties": []
+    },
+    {
+      "label": "Climate",
+      "properties": []
+    }
+  ],
+  "relationships": []
+}
+```

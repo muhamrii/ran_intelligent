@@ -1,0 +1,1 @@
+{"schema_fp": "e7ecfbb2f742be2a16f22bf7c271bc6a", "description": "`Mcfb` table stores  metadata and boolean flags related to  possible Voice EPS Feedback (McFB) for specific cells in a given area, identified by timestamp, cell ID and unique identifiers."}

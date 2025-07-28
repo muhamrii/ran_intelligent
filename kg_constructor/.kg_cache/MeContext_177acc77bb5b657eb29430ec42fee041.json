@@ -1,0 +1,1 @@
+{"schema_fp": "177acc77bb5b657eb29430ec42fee041", "description": "MeContext: Table storing metadata about the context of measurement data from a radio access network, including timestamp, location, cell identity, data type, version, unique identifier, and network element type."}

@@ -1,0 +1,1 @@
+{"schema_fp": "1453a7cdcc1b6ac01d1120bc85590b09", "description": "The `ExternalUpManager` table stores metadata about external uplink manager configurations for specific cells, including timestamps, area name, cell ID, and various identifiers."}

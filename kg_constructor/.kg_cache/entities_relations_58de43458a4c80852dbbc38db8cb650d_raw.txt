@@ -1,0 +1,167 @@
+```json
+{
+  "entities": [
+    {
+      "label": "FieldReplaceableUnit",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "FieldReplaceableUnit.hwTestResult",
+        "FieldReplaceableUnit.userLabel",
+        "FieldReplaceableUnit.positionRef",
+        "FieldReplaceableUnit.positionInformation",
+        "FieldReplaceableUnit.floorInformation",
+        "FieldReplaceableUnit.administrativeState",
+        "FieldReplaceableUnit.positionCoordinates",
+        "FieldReplaceableUnit.supportUnitRef",
+        "FieldReplaceableUnit.fieldReplaceableUnitId",
+        "FieldReplaceableUnit.productData",
+        "FieldReplaceableUnit.isSharedWithExternalMe",
+        "FieldReplaceableUnit.operationalState"
+      ]
+    },
+    {
+      "label": "RiLink",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "RiLink.fronthaulDeviceLineRate",
+        "RiLink.riLinkId",
+        "RiLink.transportType",
+        "RiLink.operationalState",
+        "RiLink.availabilityStatus",
+        "RiLink.linkTag",
+        "RiLink.riPortRef2",
+        "RiLink.riPortRef1"
+      ]
+    },
+    {
+      "label": "SupportUnit",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "SupportUnit.commandResult",
+        "SupportUnit.supportUnitId",
+        "SupportUnit.administrativeState",
+        "SupportUnit.reservedBy",
+        "SupportUnit.productData",
+        "SupportUnit.operationalState",
+        "SupportUnit.providedServices"
+      ]
+    },
+    {
+      "label": "ServiceDiscoveryServer",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "ServiceDiscoveryServer.cluster",
+        "ServiceDiscoveryServer.gsdsStatus",
+        "ServiceDiscoveryServer.localAddress",
+        "ServiceDiscoveryServer.members",
+        "ServiceDiscoveryServer.nodeCredential",
+        "ServiceDiscoveryServer.trustCategory",
+        "ServiceDiscoveryServer.serviceDiscoveryServerId"
+      ]
+    },
+    {
+      "label": "CapacityUsage",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "CapacityUsage.capacityUsageId"
+      ]
+    },
+    {
+      "label": "RadioPowerOverbooking",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "RadioPowerOverbooking.radioPowerOverbookingId",
+        "RadioPowerOverbooking.featCtrlRadioPowerOverbooking"
+      ]
+    },
+    {
+      "label": "TimeSettings",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "TimeSettings.gpsToUtcLeapSecondsChangeDate",
+        "TimeSettings.gpsToUtcLeapSeconds",
+        "TimeSettings.daylightSavingTimeStartDate",
+        "TimeSettings.daylightSavingTimeEndDate",
+        "TimeSettings.timeSettingsId",
+        "TimeSettings.timeOffset",
+        "TimeSettings.daylightSavingTimeOffset"
+      ]
+    },
+    {
+      "label": "ElementManagerWeb",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "ElementManagerWeb.idleTimer",
+        "ElementManagerWeb.elementManagerWebId",
+        "ElementManagerWeb.absoluteTimer"
+      ]
+    },
+    {
+      "label": "PmSupport",
+      "properties": []
+    },
+    {
+      "label": "ExternalUpManager",
+      "properties": []
+    }
+  ],
+  "relationships": [
+    {
+      "start_label": "FieldReplaceableUnit",
+      "end_label": "SupportUnit",
+      "type": "supported_by"
+    },
+    {
+      "start_label": "RiLink",
+      "end_label": "FieldReplaceableUnit",
+      "type": "connects_to"
+    },
+    {
+      "start_label": "RiLink",
+      "end_label": "SupportUnit",
+      "type": "uses"
+    }
+  ]
+}
+```

@@ -1,0 +1,170 @@
+```json
+{
+  "entities": [
+    {
+      "label": "Synchronization",
+      "properties": [
+        "timestamp",
+        "location",
+        "cell_identifiers",
+        "data_type",
+        "format",
+        "telecom_standard",
+        "fixed_position_status",
+        "synchronization_ID"
+      ]
+    },
+    {
+      "label": "Router",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "Router.userLabel",
+        "Router.routingPolicyLocalIPv6",
+        "Router.routingPolicyLocal",
+        "Router.pathMtuExpiresIPv6",
+        "Router.routerId",
+        "Router.reservedBy",
+        "Router.ttl",
+        "Router.hopLimit"
+      ]
+    },
+    {
+      "label": "Sctp",
+      "properties": [
+        "timestamp",
+        "area_name",
+        "cell_ID",
+        "secondary_IDs",
+        "data_type",
+        "version",
+        "SCTP_ID"
+      ]
+    },
+    {
+      "label": "EthernetPort",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "EthernetPort.supplicant",
+        "EthernetPort.encapsulation",
+        "EthernetPort.userLabel",
+        "EthernetPort.holdDownTimer",
+        "EthernetPort.mtu",
+        "EthernetPort.egressQosClassification",
+        "EthernetPort.macAddress",
+        "EthernetPort.ethernetPortId",
+        "EthernetPort.admOperatingMode",
+        "EthernetPort.egressQosMarking",
+        "EthernetPort.administrativeState",
+        "EthernetPort.reservedBy",
+        "EthernetPort.ingressQosMarking",
+        "EthernetPort.operOperatingMode",
+        "EthernetPort.egressQosQueueMap",
+        "EthernetPort.lldpTransmit",
+        "EthernetPort.autoNegEnable"
+      ]
+    },
+    {
+      "label": "Ptp",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "Ptp.ptpId"
+      ]
+    },
+    {
+      "label": "QosProfiles",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "QosProfiles.qosProfilesId"
+      ]
+    },
+    {
+      "label": "SwM",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "SwM.localFileStorePath",
+        "SwM.userLabel",
+        "SwM.fallbackTimer",
+        "SwM.actionCapable",
+        "SwM.actionCapableInfo",
+        "SwM.defaultUri",
+        "SwM.reportProgress",
+        "SwM.defaultPassword",
+        "SwM.swMId"
+      ]
+    },
+    {
+      "label": "SecM",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "SecM.secMId"
+      ]
+    },
+    {
+      "label": "SwInventory",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "SwInventory.userLabel",
+        "SwInventory.active",
+        "SwInventory.swInventoryId"
+      ]
+    },
+    {
+      "label": "SysM",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "SysM.sysMId",
+        "SysM.userLabel"
+      ]
+    }
+  ],
+  "relationships": []
+}
+```

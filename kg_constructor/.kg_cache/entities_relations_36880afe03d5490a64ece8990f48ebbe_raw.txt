@@ -1,0 +1,212 @@
+```json
+{
+  "entities": [
+    {
+      "label": "RrcInactiveProfile",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "rrcInactiveProfileId"
+      ]
+    },
+    {
+      "label": "InactivityProfile",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "inactivityProfileId"
+      ]
+    },
+    {
+      "label": "Rohc",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "rohcId"
+      ]
+    },
+    {
+      "label": "NrdcMnCellProfile",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "nrdcMnCellProfileId",
+        "reservedBy"
+      ]
+    },
+    {
+      "label": "ExternalENodeBFunction",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "eNodeBId",
+        "userLabel",
+        "externalENodeBFunctionId",
+        "isRemoveAllowed",
+        "pLMNId",
+        "eNodeBPlmnId",
+        "eranUlCompVlanPortRef",
+        "eranLinkMaxRttDelay",
+        "eNBId",
+        "timeOfCreation",
+        "zzzTemporary7",
+        "zzzTemporary8",
+        "zzzTemporary9",
+        "eranPrioritizationDisabled",
+        "ulTrigHoSupport",
+        "timeOfLastModification",
+        "eranVlanPortRef",
+        "mfbiSupport",
+        "zzzTemporary2",
+        "zzzTemporary3",
+        "createdBy",
+        "zzzTemporary4",
+        "zzzTemporary5",
+        "zzzTemporary6",
+        "lastModification",
+        "masterEnbFunctionId",
+        "eSCellCapacityScaling"
+      ]
+    },
+    {
+      "label": "EUtranFrequency",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "userLabel",
+        "eUtranFrequencyId",
+        "reservedBy",
+        "arfcnValueEUtranDl",
+        "freqBand",
+        "zzzTemporaryList1",
+        "additionalFreqBandList",
+        "zzzTemporary1",
+        "zzzTemporary2",
+        "zzzTemporary3",
+        "mfbiFreqBandIndPrio",
+        "extEndcAllowedPlmnListPolicy",
+        "zzzTemporary4",
+        "zzzTemporary5",
+        "zzzTemporary6",
+        "caOffloadingEnabled",
+        "excludeAdditionalFreqBandList",
+        "prioAdditionalFreqBandList"
+      ]
+    },
+    {
+      "label": "ExternalGNBCUCPFunction",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "amfRegionInfoList",
+        "isRemoveAllowed",
+        "pLMNId",
+        "gNBId",
+        "gNBIdLength",
+        "externalGNBCUCPFunctionId"
+      ]
+    },
+    {
+      "label": "NRFrequency",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "smtcOffset",
+        "nRFrequencyId",
+        "smtcDuration",
+        "smtcScs",
+        "gscn",
+        "arfcnValueNRDl",
+        "reservedBy",
+        "bandList",
+        "bandListManual",
+        "smtcPeriodicity"
+      ]
+    },
+    {
+      "label": "MdtCellProfile",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "userLabel",
+        "reservedBy",
+        "mdtCellProfileId"
+      ]
+    },
+    {
+      "label": "RiPort",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "transmissionStandard",
+        "administrativeState",
+        "sfpModuleRef",
+        "riPortId",
+        "channelRef",
+        "preferredSfpProductNumber"
+      ]
+    }
+  ],
+  "relationships": []
+}
+```

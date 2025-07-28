@@ -1,0 +1,1 @@
+{"schema_fp": "01a62347a2b2880e4f844867280c2c81", "description": "The `Sctp` table stores SCTP session information for Ericsson RAN nodes, including timestamp, area name, cell ID, secondary IDs, data type, version, and SCTP ID."}

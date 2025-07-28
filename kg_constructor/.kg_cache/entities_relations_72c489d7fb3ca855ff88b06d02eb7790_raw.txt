@@ -1,0 +1,181 @@
+```json
+{
+  "entities": [
+    {
+      "label": "InstantaneousLicensing",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "instantaneousLicensingId",
+        "swltId"
+      ]
+    },
+    {
+      "label": "PreRestartEsi",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "preRestartEsiId",
+        "volatileDataCollection"
+      ]
+    },
+    {
+      "label": "DlOuterLoop",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "dlOuterLoopId",
+        "initValMixIpn",
+        "initValNonMixIpn",
+        "largeStepNonMixIpn",
+        "largeStepMixIpn",
+        "dualOuterLoopEnabled",
+        "smallDownStep"
+      ]
+    },
+    {
+      "label": "CommonBeamforming",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "digitalPan",
+        "ssbBeams",
+        "coverageShape",
+        "digitalTilt",
+        "cbfMacroTaperType",
+        "used*"
+      ]
+    },
+    {
+      "label": "CaSCellHandling",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "caSCellHandlingId",
+        "reservedBy"
+      ]
+    },
+    {
+      "label": "DataRadioBearer",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "dataRadioBearerId",
+        "dlPollPdu",
+        "tStatusProhibitDl",
+        "tStatusProhibitUl",
+        "tPollRetransmitUl",
+        "dlMaxRetxThreshold",
+        "tPollRetransmitDl",
+        "ulMaxRetxThreshold",
+        "ulPollPdu"
+      ]
+    },
+    {
+      "label": "SignalingRadioBearer",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "signalingRadioBearerId",
+        "tReassemblyUl",
+        "tReassemblyDl",
+        "tPollRetransmitUl",
+        "dlMaxRetxThreshold",
+        "tPollRetransmitDl",
+        "ulMaxRetxThreshold",
+        "tReorderingUl",
+        "tReorderingDl",
+        "tReorderingUlNb",
+        "tPollRetransmitNbUl",
+        "tReorderingDlNb",
+        "tPollRetransmitNbDl"
+      ]
+    },
+    {
+      "label": "ConfiguredGrant",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "configuredGrantId"
+      ]
+    },
+    {
+      "label": "Prescheduling",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "preschedulingId"
+      ]
+    },
+    {
+      "label": "LinkAdaptation",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "linkAdaptationId"
+      ]
+    }
+  ],
+  "relationships": []
+}
+```

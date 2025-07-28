@@ -1,0 +1,187 @@
+```json
+{
+  "entities": [
+    {
+      "label": "FmAlarmModel",
+      "properties": [
+        "dateTIme",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "fmAlarmModelId"
+      ]
+    },
+    {
+      "label": "FmAlarm",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "fmAlarmId"
+      ]
+    },
+    {
+      "label": "FeatureState",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "serviceState",
+        "featureState",
+        "featureStateId",
+        "licenseState",
+        "description",
+        "keyId",
+        "featureKey"
+      ]
+    },
+    {
+      "label": "IntegrationUnlock",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "remainingActivations",
+        "unlockId",
+        "expirationDate",
+        "activationState"
+      ]
+    },
+    {
+      "label": "KeyFileManagement",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "reportProgress",
+        "keyFileManagementId"
+      ]
+    },
+    {
+      "label": "FeatureKey",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "shared",
+        "featureKeyId",
+        "name",
+        "keyId",
+        "expiration",
+        "state",
+        "validFrom",
+        "productType"
+      ]
+    },
+    {
+      "label": "CapacityKey",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "licensedCapacityLimit",
+        "licensedCapacityLimitReached",
+        "shared",
+        "name",
+        "grantedCapacityLevel",
+        "keyId",
+        "expiration",
+        "state",
+        "validFrom",
+        "capacityKeyId",
+        "productType"
+      ]
+    },
+    {
+      "label": "CapacityState",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "licensedCapacityLimitReached",
+        "serviceState",
+        "licenseState",
+        "grantedCapacityLevel",
+        "currentCapacityLimit",
+        "capacityStateId",
+        "description",
+        "keyId",
+        "capacityKey"
+      ]
+    },
+    {
+      "label": "EmergencyUnlock",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "activationsLeft",
+        "expiration",
+        "activationState",
+        "emergencyUnlockId"
+      ]
+    },
+    {
+      "label": "AutonomousMode",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "expiration",
+        "activationState",
+        "autonomousModeId"
+      ]
+    }
+  ],
+  "relationships": []
+}
+```

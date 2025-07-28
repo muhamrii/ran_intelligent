@@ -1,0 +1,1 @@
+{"schema_fp": "6e85179dcaa811169791c1828e3fa785", "description": "`MpProcessingResource` table stores metadata about the processing resources used in the Mobile Packet Core (MPC) network, specifically identifying resources by time, area, cell ID, and various internal identifiers."}

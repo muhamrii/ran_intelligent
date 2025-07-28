@@ -1,0 +1,209 @@
+```json
+{
+  "entities": [
+    {
+      "label": "NbIotCell",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "NbIotCell.attachWithoutPDNConnectivityList",
+        "NbIotCell.npbchRrmConfigEnabled",
+        "NbIotCell.mappingInfo",
+        "NbIotCell.plmnAlarmSupprList",
+        "NbIotCell.physicalLayerCellId",
+        "NbIotCell.rachPreambleTransMaxNb",
+        "NbIotCell.additionalSpectrumEmissionValues",
+        "NbIotCell.cellBarred",
+        "NbIotCell.periodicBsrTimerDedicated",
+        "NbIotCell.enableMfbi",
+        "NbIotCell.qHyst",
+        "NbIotCell.sInterSearchThreshold"
+      ]
+    },
+    {
+      "label": "SpectrumSharingFunction",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "SpectrumSharingFunction.spectrumSharingFunctionId"
+      ]
+    },
+    {
+      "label": "EUtranCellFDD",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "EUtranCellFDD.ns05LowBandSchedMode",
+        "EUtranCellFDD.tPollRetxRrcReleaseDl",
+        "EUtranCellFDD.upperLayerAutoConfEnabled",
+        "EUtranCellFDD.cceDynUeAdmCtrlOverloadThr",
+        "EUtranCellFDD.aiAdvCellSupMode",
+        "EUtranCellFDD.dynUeAdmCtrlEnabled",
+        "EUtranCellFDD.outOfCoverageThreshold",
+        "EUtranCellFDD.optimizedPdcchCongestThres",
+        "EUtranCellFDD.freqBand",
+        "EUtranCellFDD.plmn1AbConfProfileRef",
+        "EUtranCellFDD.ttiBundlingAfterHo",
+        "EUtranCellFDD.cellCapMaxCellSubCap",
+        "EUtranCellFDD.loadBasedCaEnabled"
+      ]
+    },
+    {
+      "label": "GsmSector",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "GsmSector.gsmSectorId",
+        "GsmSector.userLabel",
+        "GsmSector.bscTgIdentity",
+        "GsmSector.bscNodeIdentity"
+      ]
+    },
+    {
+      "label": "AntennaUnit",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "AntennaUnit.mechanicalAntennaTilt",
+        "AntennaUnit.mechanicalAntennaBearing",
+        "AntennaUnit.numberOfLogicalArrays",
+        "AntennaUnit.positionWithinSector",
+        "AntennaUnit.sectorLabel",
+        "AntennaUnit.antennaUnitId",
+        "AntennaUnit.antennaModelNumber",
+        "AntennaUnit.antennaSerialNumber",
+        "AntennaUnit.antennaDataProvenance"
+      ]
+    },
+    {
+      "label": "RfBranch",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "RfBranch.ulAttenuationPerFqRange",
+        "RfBranch.userLabel",
+        "RfBranch.ulTrafficDelayPerFqRange",
+        "RfBranch.dlTrafficDelay",
+        "RfBranch.dlAttenuationPerFqRange",
+        "RfBranch.auPortRef",
+        "RfBranch.dlAttenuation",
+        "RfBranch.ulAttenuation",
+        "RfBranch.rfPortRef",
+        "RfBranch.tmaRef",
+        "RfBranch.reservedBy",
+        "RfBranch.bandList",
+        "RfBranch.ulTrafficDelay",
+        "RfBranch.rfBranchId"
+      ]
+    },
+    {
+      "label": "FanGroup",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "FanGroup.fanGroupId"
+      ]
+    },
+    {
+      "label": "AlarmPort",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "AlarmPort.userLabel",
+        "AlarmPort.administrativeState",
+        "AlarmPort.perceivedSeverity",
+        "AlarmPort.alarmSlogan",
+        "AlarmPort.alarmPortId",
+        "AlarmPort.filterDelay",
+        "AlarmPort.availabilityStatus",
+        "AlarmPort.operationalState",
+        "AlarmPort.filterTime",
+        "AlarmPort.filterAlgorithm",
+        "AlarmPort.normallyOpen",
+        "AlarmPort.alarmInExternalMe"
+      ]
+    },
+    {
+      "label": "EUtranCellRelation",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "EUtranCellRelation.userLabel",
+        "EUtranCellRelation.isHoAllowed",
+        "EUtranCellRelation.eUtranCellRelationId",
+        "EUtranCellRelation.isRemoveAllowed",
+        "EUtranCellRelation.essCellScPairs",
+        "EUtranCellRelation.cellIndividualOffset",
+        "EUtranCellRelation.neighborCellRef",
+        "EUtranCellRelation.essEnabled"
+      ]
+    },
+    {
+      "label": "PmUlInterferenceReport",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "PmUlInterferenceReport.rfBranchRxRef",
+        "PmUlInterferenceReport.pmUlInterferenceReportId"
+      ]
+    }
+  ],
+  "relationships": []
+}
+```

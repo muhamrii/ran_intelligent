@@ -1,0 +1,149 @@
+```json
+{
+  "entities": [
+    {
+      "label": "AutoProvisioning",
+      "properties": [
+        "dateTIme",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "rbsConfigLevel",
+        "autoProvisioningId"
+      ]
+    },
+    {
+      "label": "MpClusterHandling",
+      "properties": [
+        "dateTIme",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "mpClusterHandlingId",
+        "primaryCoreRef"
+      ]
+    },
+    {
+      "label": "TermPointToGNBCUCP",
+      "properties": [
+        "dateTIme",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "usedIpAddress",
+        "ipv6Address",
+        "administrativeState"
+      ]
+    },
+    {
+      "label": "NRCellDU",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "typeISinglePanelRiRestriction",
+        "dftSOfdmPuschStartRsrpThresh",
+        "ulAvailableCrbs"
+      ]
+    },
+    {
+      "label": "NRSynchronization",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "synchronizationId"
+      ]
+    },
+    {
+      "label": "NRSectorCarrier",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "ueAssistedPrecodingOptEnabled",
+        "altitude",
+        "pimAvoidDlMutingPeriod"
+      ]
+    },
+    {
+      "label": "Paging",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "nS",
+        "defaultPagingCycle",
+        "pagingId"
+      ]
+    },
+    {
+      "label": "UeCA",
+      "properties": [
+        "dateTIme",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "ueCAId"
+      ]
+    },
+    {
+      "label": "Rrc",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "t319",
+        "t301",
+        "rrcId"
+      ]
+    },
+    {
+      "label": "RadioBearerTable",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "radioBearerTableId"
+      ]
+    }
+  ],
+  "relationships": []
+}
+```

@@ -1,0 +1,185 @@
+```json
+{
+  "entities": [
+    {
+      "label": "AnrFunctionEUtran",
+      "properties": [
+        "dateTIme",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "anrCgiMeasEUtranEnabled",
+        "anrFunctionEUtranId",
+        "x2SetupPolicy",
+        "anrEutranInterFMeasReportMax",
+        "hoAllowedEutranPolicy",
+        "anrUesEUtraIntraFDecr",
+        "anrUesThreshInterFMin"
+      ]
+    },
+    {
+      "label": "McpcPSCellProfile",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "mcpcPSCellProfileId",
+        "userLabel",
+        "reservedBy"
+      ]
+    },
+    {
+      "label": "McpcPSCellNrFreqRelProfile",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "mcpcPSCellNrFreqRelProfileId",
+        "userLabel",
+        "reservedBy"
+      ]
+    },
+    {
+      "label": "McpcPCellNrFreqRelProfile",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "userLabel",
+        "mcpcPCellNrFreqRelProfileId",
+        "reservedBy",
+        "ueConfGroupType"
+      ]
+    },
+    {
+      "label": "McpcPCellProfile",
+      "properties": [
+        "dateTIme",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "userLabel",
+        "reservedBy",
+        "ueConfGroupType",
+        "mcpcPCellProfileId"
+      ]
+    },
+    {
+      "label": "McpcPCellEUtranFreqRelProfile",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "userLabel",
+        "mcpcPCellEUtranFreqRelProfileId",
+        "reservedBy",
+        "ueConfGroupType"
+      ]
+    },
+    {
+      "label": "UeMCCellProfile",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "freqClassificationThreshold",
+        "userLabel",
+        "filterCoefficientEUtraRsrp",
+        "filterCoefficientNrRsrqHigh",
+        "sMeasure",
+        "filterCoefficientEUtraRsrq",
+        "reservedBy",
+        "filterCoefficientNrRsrpHigh",
+        "ueMCCellProfileId",
+        "filterCoefficientNrRsrqLow",
+        "filterCoefficientNrRsrpLow"
+      ]
+    },
+    {
+      "label": "UeMCNrFreqRelProfile",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "userLabel",
+        "reservedBy",
+        "ueMCNrFreqRelProfileId",
+        "ueConfGroupType"
+      ]
+    },
+    {
+      "label": "UeMCEUtranFreqRelProfile",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "userLabel",
+        "ueMCEUtranFreqRelProfileId",
+        "reservedBy",
+        "ueConfGroupType"
+      ]
+    },
+    {
+      "label": "McfbCellProfile",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "epsFbAtSessionSetup",
+        "reservedBy",
+        "ueConfGroupType",
+        "mcfbCellProfileId"
+      ]
+    }
+  ],
+  "relationships": []
+}
+```

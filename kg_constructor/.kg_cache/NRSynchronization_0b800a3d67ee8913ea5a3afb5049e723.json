@@ -1,0 +1,1 @@
+{"schema_fp": "0b800a3d67ee8913ea5a3afb5049e723", "description": "The `NRSynchronization` table stores information about NR synchronization events, including the timestamp, area name, cell ID, a redundant ID (Id2), a seemingly constant ID (Id3), data type, format version, and a synchronization ID."}

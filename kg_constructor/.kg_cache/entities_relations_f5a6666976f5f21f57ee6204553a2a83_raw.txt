@@ -1,0 +1,141 @@
+```json
+{
+  "entities": [
+    {
+      "label": "SwVersion",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "SwVersion.administrativeData",
+        "SwVersion.userLabel",
+        "SwVersion.timeOfDeactivation",
+        "SwVersion.consistsOf",
+        "SwVersion.swVersionId",
+        "SwVersion.timeOfInstallation",
+        "SwVersion.timeOfActivation"
+      ]
+    },
+    {
+      "label": "Schema",
+      "properties": []
+    },
+    {
+      "label": "NtpServer",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "NtpServer.ntpServerId"
+      ]
+    },
+    {
+      "label": "FileTPM",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "FileTPM.fileTPMId"
+      ]
+    },
+    {
+      "label": "CliTls",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "CliTls.cliTlsId",
+        "CliTls.administrativeState",
+        "CliTls.port",
+        "CliTls.nodeCredential",
+        "CliTls.trustCategory"
+      ]
+    },
+    {
+      "label": "OamAccessPoint",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "OamAccessPoint.oamAccessPointId",
+        "OamAccessPoint.accessPoint"
+      ]
+    },
+    {
+      "label": "RuntimeExportM",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "RuntimeExportM.runtimeExportMId",
+        "RuntimeExportM.userLabel"
+      ]
+    },
+    {
+      "label": "HttpM",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "HttpM.httpMId"
+      ]
+    },
+    {
+      "label": "OamTrafficClass",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "OamTrafficClass.dscp",
+        "OamTrafficClass.oamTrafficClassId",
+        "OamTrafficClass.name"
+      ]
+    },
+    {
+      "label": "Snmp",
+      "properties": []
+    }
+  ],
+  "relationships": []
+}
+```

@@ -1,0 +1,1 @@
+{"schema_fp": "8d6a6a89085ca19795d0fd00f3ac8e05", "description": "The `Snmp` table stores SNMP configuration data for Ericsson network elements, including timestamps, location, cell identifiers, and various SNMP parameters like agent address, port, and security credentials."}

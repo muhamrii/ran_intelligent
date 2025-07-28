@@ -1,0 +1,233 @@
+```json
+{
+  "entities": [
+    {
+      "label": "ExternalGeranCell",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "ExternalGeranCell.userLabel",
+        "ExternalGeranCell.bcc",
+        "ExternalGeranCell.zzzTemporary12",
+        "ExternalGeranCell.zzzTemporary11",
+        "ExternalGeranCell.zzzTemporary10",
+        "ExternalGeranCell.zzzTemporary8",
+        "ExternalGeranCell.cellIdentity",
+        "ExternalGeranCell.zzzTemporary9",
+        "ExternalGeranCell.dtmSupport",
+        "ExternalGeranCell.lac",
+        "ExternalGeranCell.ncc",
+        "ExternalGeranCell.masterGeranCellId",
+        "ExternalGeranCell.geranFrequencyRef",
+        "ExternalGeranCell.isRemoveAllowed",
+        "ExternalGeranCell.rac",
+        "ExternalGeranCell.plmnIdentity",
+        "ExternalGeranCell.externalGeranCellId",
+        "ExternalGeranCell.rimAssociationStatus",
+        "ExternalGeranCell.timeOfCreation",
+        "ExternalGeranCell.timeOfLastModification",
+        "ExternalGeranCell.zzzTemporary1",
+        "ExternalGeranCell.zzzTemporary2",
+        "ExternalGeranCell.rimCapable",
+        "ExternalGeranCell.zzzTemporary3",
+        "ExternalGeranCell.zzzTemporary4",
+        "ExternalGeranCell.zzzTemporary5",
+        "ExternalGeranCell.lastModification",
+        "ExternalGeranCell.reservedBy"
+      ]
+    },
+    {
+      "label": "GeranFrequency",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "GeranFrequency.userLabel",
+        "GeranFrequency.bandIndicator",
+        "GeranFrequency.geranFrequencyId",
+        "GeranFrequency.reservedBy",
+        "GeranFrequency.arfcnValueGeranDl",
+        "GeranFrequency.geranFreqGroupRef"
+      ]
+    },
+    {
+      "label": "GeranFreqGroup",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "GeranFreqGroup.frequencyGroupId",
+        "GeranFreqGroup.userLabel",
+        "GeranFreqGroup.geranFreqGroupId",
+        "GeranFreqGroup.reservedBy"
+      ]
+    },
+    {
+      "label": "ExternalGNodeBFunction",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "ExternalGNodeBFunction.gNodeBIdLength",
+        "ExternalGNodeBFunction.userLabel",
+        "ExternalGNodeBFunction.createdBy",
+        "ExternalGNodeBFunction.eNBVlanPortRef",
+        "ExternalGNodeBFunction.gNodeBPlmnId",
+        "ExternalGNodeBFunction.externalGNodeBFunctionId",
+        "ExternalGNodeBFunction.dirDataPathAvail",
+        "ExternalGNodeBFunction.gNodeBId"
+      ]
+    },
+    {
+      "label": "GUtranSyncSignalFrequency",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "GUtranSyncSignalFrequency.userLabel",
+        "GUtranSyncSignalFrequency.smtcOffset",
+        "GUtranSyncSignalFrequency.smtcDuration",
+        "GUtranSyncSignalFrequency.gscn",
+        "GUtranSyncSignalFrequency.smtcScs",
+        "GUtranSyncSignalFrequency.reservedBy",
+        "GUtranSyncSignalFrequency.bandList",
+        "GUtranSyncSignalFrequency.band",
+        "GUtranSyncSignalFrequency.smtcPeriodicity",
+        "GUtranSyncSignalFrequency.arfcn",
+        "GUtranSyncSignalFrequency.gUtranSyncSignalFrequencyId"
+      ]
+    },
+    {
+      "label": "SctpAssociation",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "SctpAssociation.pmtudSctpPduSize",
+        "SctpAssociation.sctpAssociationId"
+      ]
+    },
+    {
+      "label": "TimeSyncIO",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "TimeSyncIO.encapsulation",
+        "TimeSyncIO.timeSyncIOId",
+        "TimeSyncIO.compensationDelay",
+        "TimeSyncIO.reservedBy",
+        "TimeSyncIO.filterTime"
+      ]
+    },
+    {
+      "label": "RadioEquipmentClock",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "RadioEquipmentClock.selectionProcessMode",
+        "RadioEquipmentClock.syncInconsistentConfigAlarmEnabled",
+        "RadioEquipmentClock.minQualityLevel",
+        "RadioEquipmentClock.timeHoldoverAlarmConfig",
+        "RadioEquipmentClock.freqDeviationThreshold",
+        "RadioEquipmentClock.bfnOffset",
+        "RadioEquipmentClock.radioEquipmentClockId"
+      ]
+    },
+    {
+      "label": "RouteTableIPv4Static",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "RouteTableIPv4Static.routeTableIPv4StaticId"
+      ]
+    },
+    {
+      "label": "DnsClient",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "DnsClient.configurationMode",
+        "DnsClient.userLabel",
+        "DnsClient.usedServerAddress",
+        "DnsClient.dscp",
+        "DnsClient.serverAddress",
+        "DnsClient.reservedBy",
+        "DnsClient.localIpAddress",
+        "DnsClient.dnsClientId"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "start_label": "ExternalGeranCell",
+      "end_label": "GeranFrequency",
+      "type": "USES"
+    },
+    {
+      "start_label": "ExternalGeranCell",
+      "end_label": "GeranFreqGroup",
+      "type": "USES"
+    },
+    {
+      "start_label": "GeranFrequency",
+      "end_label": "GeranFreqGroup",
+      "type": "BELONGS_TO"
+    }
+  ]
+}
+```

@@ -1,0 +1,1 @@
+{"schema_fp": "bfa2fe85a854df5f9bd3ccb7cd83350a", "description": "SubscriberProfileID: This table stores metadata about subscriber profiles, including timestamps, location (Area_Name and CellId), unique identifiers (Id2, Id3, SubscriberProfileID.subscriberProfileIDId), data type and version information, and a user label."}

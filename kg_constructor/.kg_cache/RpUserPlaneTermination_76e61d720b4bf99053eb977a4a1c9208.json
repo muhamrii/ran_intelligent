@@ -1,0 +1,1 @@
+{"schema_fp": "76e61d720b4bf99053eb977a4a1c9208", "description": "This table, `RpUserPlaneTermination`, stores metadata about radio access network user plane terminations, including timestamp, area name, cell ID, and various identifiers for each termination."}

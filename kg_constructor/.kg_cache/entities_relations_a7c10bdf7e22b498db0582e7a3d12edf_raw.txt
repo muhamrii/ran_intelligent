@@ -1,0 +1,203 @@
+```json
+{
+  "entities": [
+    {
+      "label": "InterfaceIPv4",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "encapsulation",
+        "userLabel",
+        "pcpArp",
+        "aclIngress",
+        "mtu",
+        "routesHoldDownTimer",
+        "egressQosMarking",
+        "bfdProfile",
+        "bfdStaticRoutes",
+        "reservedBy",
+        "routingPolicyIngress",
+        "arpTimeout",
+        "trackedInterface",
+        "ingressQosMarking",
+        "interfaceIPv4Id",
+        "aclEgress",
+        "loopback"
+      ]
+    },
+    {
+      "label": "BoundaryOrdinaryClock",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "ptpProfile",
+        "reservedBy",
+        "priority2",
+        "domainNumber",
+        "priority1",
+        "clockType",
+        "boundaryOrdinaryClockId"
+      ]
+    },
+    {
+      "label": "TwampInitiator",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "twampInitiatorId",
+        "administrativeState"
+      ]
+    },
+    {
+      "label": "UpgradePackage",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "administrativeData",
+        "userLabel",
+        "password",
+        "ignoreBreakPoints",
+        "created",
+        "state",
+        "reportProgress",
+        "activationStep",
+        "uri",
+        "upgradePackageId"
+      ]
+    },
+    {
+      "label": "Tls",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "tlsId",
+        "enabledCiphers",
+        "supportedCiphers",
+        "cipherFilter"
+      ]
+    },
+    {
+      "label": "LocalAccessM",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "emergencyRestore",
+        "localAccessMId",
+        "userLabel"
+      ]
+    },
+    {
+      "label": "Ssh",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "supportedMacs",
+        "supportedKeyExchanges",
+        "selectedMacs",
+        "supportedCiphers",
+        "selectedCiphers",
+        "sshId",
+        "selectedKeyExchanges"
+      ]
+    },
+    {
+      "label": "CertM",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "localFileStorePath",
+        "userLabel",
+        "activeVendorCredential",
+        "certMId",
+        "reportProgress"
+      ]
+    },
+    {
+      "label": "UserManagement",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "userManagementId",
+        "userLabel",
+        "privacyNotice",
+        "loginFailureDelay",
+        "targetType",
+        "legalNotice"
+      ]
+    },
+    {
+      "label": "SwItem",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "administrativeData",
+        "userLabel",
+        "swItemId",
+        "additionalInfo",
+        "consistsOf"
+      ]
+    }
+  ],
+  "relationships": []
+}
+```

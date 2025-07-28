@@ -1,0 +1,138 @@
+```json
+{
+  "entities": [
+    {
+      "label": "MeContext",
+      "properties": [
+        "timestamp",
+        "location",
+        "cellIdentity",
+        "dataType",
+        "version",
+        "uniqueIdentifier",
+        "networkElementType"
+      ]
+    },
+    {
+      "label": "EnodeBInfo",
+      "properties": [
+        "timestamp",
+        "areaName",
+        "cellId",
+        "alternateId",
+        "userLabel"
+      ]
+    },
+    {
+      "label": "AnrFunction",
+      "properties": [
+        "timestamp",
+        "areaName",
+        "cellId",
+        "alternateId",
+        "arbitraryIdentifier",
+        "dataType",
+        "dataFormatVersion",
+        "removeGnbTime",
+        "removeEnbTime",
+        "anrFunctionId"
+      ]
+    },
+    {
+      "label": "TermPointToGNBDU",
+      "properties": [
+        "timestamp",
+        "areaName",
+        "cellId",
+        "alternateId",
+        "ancillaryIdentifier",
+        "dataType",
+        "dataFormatVersion",
+        "usedIpAddress",
+        "gNBDUId",
+        "operationalState"
+      ]
+    },
+    {
+      "label": "Mcpc",
+      "properties": [
+        "timestamp",
+        "areaName",
+        "cellId",
+        "alternateId",
+        "placeholderIdentifier",
+        "dataType",
+        "dataFormatVersion",
+        "mcpcId"
+      ]
+    },
+    {
+      "label": "UeMC",
+      "properties": [
+        "timestamp",
+        "areaName",
+        "cellId",
+        "alternateId",
+        "unclearIdentifier",
+        "dataType",
+        "dataFormatVersion",
+        "userLabel",
+        "ueMCId",
+        "freqSelAtBlindRwrToEutran"
+      ]
+    },
+    {
+      "label": "Mcfb",
+      "properties": [
+        "timestamp",
+        "areaName",
+        "cellId",
+        "uniqueIdentifiers"
+      ]
+    },
+    {
+      "label": "TrafficSteering",
+      "properties": [
+        "timestamp",
+        "areaName",
+        "cellId",
+        "alternateId",
+        "arbitraryIdentifier",
+        "dataType",
+        "dataFormatVersion",
+        "userLabel",
+        "trafficSteeringId"
+      ]
+    },
+    {
+      "label": "EndpointResource",
+      "properties": [
+        "timestamp",
+        "areaName",
+        "cellId",
+        "alternateId",
+        "unusedId",
+        "dataType",
+        "dataFormatVersion",
+        "endpointResourceId",
+        "userLabel",
+        "reservedBy"
+      ]
+    },
+    {
+      "label": "IntraFreqMC",
+      "properties": [
+        "timestamp",
+        "areaName",
+        "cellId",
+        "alternateId",
+        "additionalIdentifier",
+        "dataType",
+        "dataFormatVersion",
+        "intraFreqMCId"
+      ]
+    }
+  ],
+  "relationships": []
+}
+```

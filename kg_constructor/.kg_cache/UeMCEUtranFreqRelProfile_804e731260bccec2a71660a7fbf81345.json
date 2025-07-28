@@ -1,0 +1,1 @@
+{"schema_fp": "804e731260bccec2a71660a7fbf81345", "description": "This table, `UeMCEUtranFreqRelProfile`, stores user equipment (UE) mobility group configurations for E-UTRAN frequencies, including timestamps, location information, unique identifiers, data type/version, labels, and group type."}

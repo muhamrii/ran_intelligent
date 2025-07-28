@@ -1,0 +1,1 @@
+{"schema_fp": "a1e467dd72f48ccde27e645b678e2d3f", "description": "This table logs Ericsson radio access network (RAN) data, including timestamps, cell identifiers, and metadata describing the data schema and version for various data types (e.g., RME capacity usage, auto ESI, and requested RD data)."}

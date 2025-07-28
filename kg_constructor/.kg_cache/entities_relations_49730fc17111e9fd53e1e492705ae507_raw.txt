@@ -1,0 +1,143 @@
+```json
+{
+  "entities": [
+    {
+      "label": "Cell",
+      "properties": [
+        "CellId",
+        "Area_Name"
+      ]
+    },
+    {
+      "label": "Cli",
+      "properties": [
+        "dateTime",
+        "cliId",
+        "idleTimer"
+      ]
+    },
+    {
+      "label": "NetconfSsh",
+      "properties": [
+        "dateTime",
+        "netconfSshId",
+        "administrativeState",
+        "port"
+      ]
+    },
+    {
+      "label": "NetconfTls",
+      "properties": [
+        "dateTime",
+        "netconfTlsId",
+        "administrativeState",
+        "port",
+        "nodeCredential",
+        "trustCategory"
+      ]
+    },
+    {
+      "label": "CliSsh",
+      "properties": [
+        "dateTime",
+        "cliSshId",
+        "administrativeState",
+        "port"
+      ]
+    },
+    {
+      "label": "TopologySchema",
+      "properties": [
+        "dateTime",
+        "topologySchemaId",
+        "name",
+        "version"
+      ]
+    },
+    {
+      "label": "TimeM",
+      "properties": [
+        "dateTime",
+        "timeMId"
+      ]
+    },
+    {
+      "label": "EventProducerS",
+      "properties": [
+        "dateTime",
+        "eventProducerSId",
+        "streamDestinationPort"
+      ]
+    },
+    {
+      "label": "EventProducer",
+      "properties": [
+        "dateTime",
+        "eventProducerId",
+        "eventProducerName"
+      ]
+    },
+    {
+      "label": "Log",
+      "properties": [
+        "dateTime",
+        "logId",
+        "severityFilter",
+        "reportProgress"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "start_label": "Cli",
+      "end_label": "Cell",
+      "type": "HAS_CELL"
+    },
+    {
+      "start_label": "NetconfSsh",
+      "end_label": "Cell",
+      "type": "HAS_CELL"
+    },
+    {
+      "start_label": "NetconfTls",
+      "end_label": "Cell",
+      "type": "HAS_CELL"
+    },
+    {
+      "start_label": "CliSsh",
+      "end_label": "Cell",
+      "type": "HAS_CELL"
+    },
+    {
+      "start_label": "TopologySchema",
+      "end_label": "Cell",
+      "type": "DESCRIBES_TOPOLOGY"
+    },
+    {
+      "start_label": "TimeM",
+      "end_label": "Cell",
+      "type": "HAS_CELL"
+    },
+    {
+      "start_label": "EventProducerS",
+      "end_label": "Cell",
+      "type": "HAS_CELL"
+    },
+    {
+      "start_label": "EventProducer",
+      "end_label": "Cell",
+      "type": "HAS_CELL"
+    },
+    {
+      "start_label": "Log",
+      "end_label": "Cell",
+      "type": "HAS_CELL"
+    },
+    {
+      "start_label": "PmMeasurementCapabilities",
+      "end_label": "Cell",
+      "type": "HAS_CELL"
+    }
+  ]
+}
+```

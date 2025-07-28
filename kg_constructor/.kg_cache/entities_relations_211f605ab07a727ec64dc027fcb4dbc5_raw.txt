@@ -1,0 +1,216 @@
+```json
+{
+  "entities": [
+    {
+      "label": "MdtConfiguration",
+      "properties": [
+        "dateTIme",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "rcefReportEnabled",
+        "immediateMdtGnssCheck",
+        "maxReportCellsA2Mdt",
+        "a2ThresholdRsrqMdt",
+        "rlfReportEnabled",
+        "a2ThresholdRsrpMdt",
+        "reportQuantityA2Mdt",
+        "delayThresholdMdtM6",
+        "timeToTriggerA2Mdt",
+        "hysteresisA2Mdt",
+        "reportingTrigger",
+        "reportAmountMdtM6",
+        "triggerQuantityA2Mdt",
+        "positioningMethod",
+        "reportIntervalMdt",
+        "mdtConfigurationId",
+        "reportIntervalMdtM6",
+        "reportAmountMdt",
+        "measGapAllowedMdt"
+      ]
+    },
+    {
+      "label": "ParameterChangeRequests",
+      "properties": [
+        "dateTIme",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "parameterChangeRequestsId",
+        "parameterChangeRequestList",
+        "latestUpdate"
+      ]
+    },
+    {
+      "label": "Rcs",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "tInactivityTimerBr",
+        "tNasInactivityTimer",
+        "raiReleaseDelayTimerBr",
+        "rcsId",
+        "tInactivityTimer",
+        "extendInactEmergency",
+        "bufferInactivityTimerBr",
+        "rlcDlDeliveryFailureAction",
+        "extendInactAfterVolteRel",
+        "extendInactEmMode"
+      ]
+    },
+    {
+      "label": "ImeisvTable",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "imeisvTableId",
+        "vsDataType",
+        "vsDataFormatVersion"
+      ]
+    },
+    {
+      "label": "NonPlannedPciDrxProfile",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "nonPlannedPciDrxInactivityTimer",
+        "nonPlannedPciOnDurationTimer",
+        "nonPlannedPciDrxProfileId",
+        "nonPlannedPciLongDrxCycle"
+      ]
+    },
+    {
+      "label": "NodePerformance",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "zzzTemporary1-8",
+        "nodePerformanceId"
+      ]
+    },
+    {
+      "label": "PtmFunction",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "ptmEnabled",
+        "ptmFunctionId"
+      ]
+    },
+    {
+      "label": "LoadBalancingFunction",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "lbCeiling",
+        "lbHitRateEUtranMeasUeThreshold",
+        "ocdMaxNoHighHitRateCells",
+        "lbHitRateEUtranAddThreshold",
+        "lbHitRateUtranMeasUeThreshold",
+        "lbDiffCaOffset",
+        "lbCauseCodeS1SourceTriggersOffload",
+        "lbSubCycle",
+        "lbUeEvaluationTimer",
+        "lbCycle",
+        "isUlEvalAllowedAtCaTrHo",
+        "lbCauseCodeX2TargetAcceptsOffload",
+        "lbHitRateEUtranMeasUeIntensity",
+        "lbEUtranOffloadBackoffTime",
+        "txPwrForOverlaidCellDetect",
+        "lbCaThreshold",
+        "lbUtranOffloadBackoffTime",
+        "lbCaHysteresis",
+        "targetLoadAwareLbdar",
+        "lbMeasScalingLimit",
+        "loadBalancingFunctionId",
+        "lbHitRateFilterCoeffCalm",
+        "coverageAwareLbdar",
+        "lbCauseCodeX2SourceTriggersOffload",
+        "lbHitRateUtranAddThreshold",
+        "lbHitRateUtranRemoveThreshold",
+        "lbCauseCodeS1TargetAcceptsOffload",
+        "lbHitRateEUtranRemoveThreshold",
+        "lbThreshold",
+        "lbHitRateUtranMeasUeIntensity",
+        "lbCaCapHysteresis",
+        "lbRateOffsetCoefficient",
+        "isUlEvalAllowedAtTpLbHo",
+        "ocdMinHighHitThresh",
+        "lbRateOffsetLoadThreshold"
+      ]
+    },
+    {
+      "label": "UePolicyOptimization",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "ueCapPrioList",
+        "zzzTemporary1",
+        "zzzTemporary2",
+        "zzzTemporary3",
+        "endcAwareImc",
+        "t320",
+        "uePolicyOptimizationId",
+        "coverageAwareImc"
+      ]
+    },
+    {
+      "label": "ResourcePartitions",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "zzzTemporary*",
+        "rrpAdmCtrlRejPaReqOvlGbr",
+        "gbrAdmCtrlPerPartition",
+        "gbrPartitioning",
+        "resourcePartitionsId"
+      ]
+    }
+  ],
+  "relationships": []
+}
+```

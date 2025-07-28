@@ -1,0 +1,1 @@
+{"schema_fp": "77d5e80f255aef4a1f2c3f156f8a9709", "description": "`PmSupport` table stores performance management support data for specific cells, including timestamp, location, cell identifiers, data type, format version, and file handling information."}

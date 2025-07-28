@@ -1,0 +1,206 @@
+```json
+{
+  "entities": [
+    {
+      "label": "TrStSaNrFreqRelProfile",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "trStSaNrFreqRelProfileId",
+        "userLabel",
+        "reservedBy"
+      ]
+    },
+    {
+      "label": "TrStPSCellProfile",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "userLabel",
+        "reservedBy",
+        "trStPSCellProfileId"
+      ]
+    },
+    {
+      "label": "TrStSaCellProfile",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "userLabel",
+        "trStSaCellProfileId",
+        "reservedBy",
+        "ueConfGroupType"
+      ]
+    },
+    {
+      "label": "TrStSaEUtranFreqRelProfile",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "userLabel",
+        "reservedBy",
+        "ueConfGroupType",
+        "trStSaEUtranFreqRelProfileId"
+      ]
+    },
+    {
+      "label": "LocalSctpEndpoint",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "sctpEndpointRef",
+        "interfaceUsed",
+        "localSctpEndpointId"
+      ]
+    },
+    {
+      "label": "IntraFreqMCCellProfile",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "userLabel",
+        "sCellCoverageTriggerQuantity",
+        "rsrpSCellCoverage",
+        "rsrqSCellCoverage",
+        "rsrpBetterSCell",
+        "reservedBy",
+        "ueConfGroupType",
+        "intraFreqMCCellProfileId"
+      ]
+    },
+    {
+      "label": "IntraFreqMCFreqRelProfile",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "userLabel",
+        "reservedBy",
+        "intraFreqMCFreqRelProfileId"
+      ]
+    },
+    {
+      "label": "NrdcSnTerminationUeCfg",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "nrdcSnTerminationUeCfgId",
+        "nrdcSnTermAllowed"
+      ]
+    },
+    {
+      "label": "NRFreqRelation",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "tReselectionNR",
+        "tReselectionNrSfMedium",
+        "ueMCNrFreqRelProfileRef",
+        "threshXLowP",
+        "threshXLowQ",
+        "plmnIdList",
+        "sIntraSearchQ",
+        "anrMeasOn",
+        "mcpcPSCellNrFreqRelProfileRef",
+        "sIntraSearchP",
+        "cellReselectionSubPriority",
+        "qRxLevMin",
+        "cellReselectionPriority",
+        "qOffsetFreq",
+        "pMax",
+        "tReselectionNrSfHigh",
+        "plmnRestriction",
+        "nRFrequencyRef",
+        "intraFreqMCFreqRelProfileRef",
+        "mdtMeasOn",
+        "threshXHighQ",
+        "threshXHighP",
+        "trStSaNrFreqRelProfileRef",
+        "reservedBy",
+        "nRFreqRelationId",
+        "mcpcPCellNrFreqRelProfileRef",
+        "qQualMin"
+      ]
+    },
+    {
+      "label": "NRCellRelation",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "caStatusInfo",
+        "coordinationType",
+        "nRCellRelationId",
+        "caStatusActive",
+        "sCellCandidate",
+        "isHoAllowed",
+        "nRFreqRelationRef",
+        "isRemoveAllowed",
+        "cellIndividualOffsetNR",
+        "nRCellRef",
+        "coverageIndicator",
+        "includeInSIB"
+      ]
+    }
+  ],
+  "relationships": []
+}
+```

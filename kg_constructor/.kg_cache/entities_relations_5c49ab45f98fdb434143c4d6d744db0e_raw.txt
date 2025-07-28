@@ -1,0 +1,260 @@
+```json
+{
+  "entities": [
+    {
+      "label": "QciProfilePredefined",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "serviceType",
+        "pdcpSNLength",
+        "pdbOffset",
+        "dataFwdPerQciEnabled",
+        "endcProfileRef",
+        "counterActiveMode",
+        "dscp",
+        "srsAllocationStrategy",
+        "qci",
+        "dlMaxWaitingTime",
+        "inactivityTimerOffset"
+      ]
+    },
+    {
+      "label": "LogicalChannelGroup",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "userLabel",
+        "reservedBy",
+        "logicalChannelGroupId"
+      ]
+    },
+    {
+      "label": "MACConfiguration",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "ulMaxHARQTx",
+        "dlMaxHARQTx",
+        "ulTtiBundlingMaxHARQTx",
+        "dlMaxHARQMsg4Tx",
+        "mACConfigurationId"
+      ]
+    },
+    {
+      "label": "RATFreqPrio",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "bandClassPrioListCDMA1xRtt",
+        "freqGroupPrioListGERAN",
+        "userLabel",
+        "spidList",
+        "ueCapPrioAllowed",
+        "bandClassPrioListCDMA2000",
+        "t320",
+        "freqPrioListEUTRA",
+        "freqPrioListUTRA",
+        "rATFreqPrioId"
+      ]
+    },
+    {
+      "label": "LoggedMdt",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "traceId",
+        "tceId",
+        "traceRecSessionReference",
+        "areaScopeCgiList",
+        "loggedMdtGnssCheck",
+        "loggedMdtId",
+        "loggingInterval",
+        "loggedMdtReportEnabled",
+        "loggedMdtConfigEnabled",
+        "numberOfMdtConfigUes",
+        "loggingDuration",
+        "mdtPlmnList",
+        "areaScopeType",
+        "areaScopeTacList"
+      ]
+    },
+    {
+      "label": "PtmSubscriberGroup",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "ptmSubscriberGroupId",
+        "spidList",
+        "reservedBy",
+        "plmn"
+      ]
+    },
+    {
+      "label": "PtmCellProfile",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "ptmCellProfileId",
+        "cellType",
+        "reservedBy"
+      ]
+    },
+    {
+      "label": "GUtranFreqRelation",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "endcB1MeasPriority",
+        "gUtranSyncSignalFrequencyRef",
+        "deriveSsbIndexFromCell",
+        "connectedModeMobilityPrio",
+        "b1ThrRsrqFreqOffset",
+        "threshXHighQ",
+        "pMaxNR",
+        "threshXLowQ",
+        "b1ThrRsrpFreqOffset",
+        "allowedPlmnList",
+        "threshXLow",
+        "threshXHigh",
+        "anrMeasOn",
+        "gUtranFreqRelationId",
+        "cellReselectionSubPriority",
+        "qRxLevMin",
+        "cellReselectionPriority",
+        "qQualMin",
+        "qOffsetFreq"
+      ]
+    },
+    {
+      "label": "EUtranFreqRelation",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "eUtranFreqRelationId",
+        "eutranFrequencyRef"
+      ]
+    },
+    {
+      "label": "InstantUplinkAccess",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "iuaTargetBufferEmptyTime",
+        "iuaDuration",
+        "iuaInactivityTimer",
+        "iuaTargetBufferSize",
+        "iuaIntervalTdd",
+        "iuaEnabled",
+        "iuaLoadThreshold",
+        "iuaCellResourceLimit",
+        "iuaSinrThreshold",
+        "iuaUePrbLimit",
+        "iuaDeactPdcchMargin",
+        "iuaCoscheduleDynamic",
+        "iuaDeactTimer",
+        "instantUplinkAccessId",
+        "iuaIntervalFdd",
+        "iuaSinrDeactHyst"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "start_label": "QciProfilePredefined",
+      "end_label": "LogicalChannelGroup",
+      "type": "REFERENCES"
+    },
+    {
+      "start_label": "MACConfiguration",
+      "end_label": "QciProfilePredefined",
+      "type": "USES"
+    },
+    {
+      "start_label": "LoggedMdt",
+      "end_label": "PtmSubscriberGroup",
+      "type": "MONITORS"
+    },
+    {
+      "start_label": "PtmCellProfile",
+      "end_label": "PtmSubscriberGroup",
+      "type": "ASSOCIATED_WITH"
+    },
+    {
+      "start_label": "GUtranFreqRelation",
+      "end_label": "EUtranFreqRelation",
+      "type": "RELATED_TO"
+    },
+    {
+      "start_label": "InstantUplinkAccess",
+      "end_label": "MACConfiguration",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "start_label": "QciProfilePredefined",
+      "end_label": "RATFreqPrio",
+      "type": "USES"
+    }
+  ]
+}
+```

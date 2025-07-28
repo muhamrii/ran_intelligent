@@ -1,0 +1,1 @@
+{"schema_fp": "4652682447bd6f5f192c3b0d7defab9e", "description": "The `Pm` table stores performance management (PM) data for specific cells, including timestamp, location, cell identifier, and data format metadata."}

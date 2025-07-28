@@ -1,0 +1,209 @@
+```json
+{
+  "entities": [
+    {
+      "label": "DynamicBlerTarget",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "dynamicBlerTargetId",
+        "dlActivitySubscrDelay",
+        "dlAiLaCellRankingUpdatePeriod"
+      ]
+    },
+    {
+      "label": "EndcProfile",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "userLabel",
+        "meNbS1TermReqArpLev",
+        "endcProfileId",
+        "reservedBy",
+        "splitNotAllowedUeArpLev"
+      ]
+    },
+    {
+      "label": "FlexibleQoSFunction",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "flexibleQoSFunctionId"
+      ]
+    },
+    {
+      "label": "FastCoordinationGroup",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "activeList",
+        "candidateList",
+        "eranFeatureName",
+        "fastCoordinationGroupId"
+      ]
+    },
+    {
+      "label": "GeraNetwork",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "userLabel",
+        "geraNetworkId"
+      ]
+    },
+    {
+      "label": "EricssonLeanCarrierFunction",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "disableElcOnPtt",
+        "elcPdcchCrsMuting",
+        "elcDrxOnDurationPostHeating",
+        "ericssonLeanCarrierFunctionId",
+        "elcDrxOnDurationPreHeating",
+        "disableElcOnVolte"
+      ]
+    },
+    {
+      "label": "GUtraNetwork",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "userLabel",
+        "gUtraNetworkId",
+        "simpleGUtranFreqSmtc"
+      ]
+    },
+    {
+      "label": "SctpProfile",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "minRto",
+        "maxInStreams",
+        "initARWnd",
+        "userLabel",
+        "maxInitRt",
+        "primaryPathAvoidance",
+        "bundlingTimer",
+        "cookieLife",
+        "dscp",
+        "transmitBufferSize",
+        "thrTransmitBufferCongCeased",
+        "minActivateThr",
+        "incCookieLife",
+        "betaIndex",
+        "maxOutStreams",
+        "initRto",
+        "thrTransmitBuffer",
+        "noSwitchback",
+        "heartbeatInterval",
+        "initialHeartbeatInterval",
+        "maxActivateThr",
+        "maxShutdownRt",
+        "bundlingActivated",
+        "pathMaxRtx",
+        "bundlingAdaptiveActivated",
+        "assocMaxRtx",
+        "heartbeatActivated",
+        "maxRto",
+        "maxBurst",
+        "alphaIndex",
+        "maxSctpPduSize",
+        "hbMaxBurst",
+        "primaryPathMaxRtx",
+        "sctpProfileId",
+        "sackTimer",
+        "reservedBy"
+      ]
+    },
+    {
+      "label": "SctpEndpoint",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "userLabel",
+        "dtlsSctpSecurityMode",
+        "dtlsNodeCredential",
+        "reservedBy",
+        "operationalState",
+        "availabilityStatus",
+        "localIpAddress",
+        "dtlsTrustCategory",
+        "sctpProfile",
+        "sctpEndpointId",
+        "portNumber"
+      ]
+    },
+    {
+      "label": "VlanPort",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "isTagged",
+        "encapsulation",
+        "userLabel",
+        "vlanPortId",
+        "lowLatencySwitching",
+        "egressQosMarking",
+        "vlanId",
+        "reservedBy",
+        "ingressQosMarking",
+        "egressQosQueueMap",
+        "egressQosClassification"
+      ]
+    }
+  ],
+  "relationships": []
+}
+```

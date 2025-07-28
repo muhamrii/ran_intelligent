@@ -1,0 +1,1 @@
+{"schema_fp": "4ac0dfe121d24389e47809c18f597543", "description": "`ImeisvTable` stores IMEI-SV data including timestamp, location (Area_Name and CellId), unique identifiers (Id2, Id3, imeisvTableId), data type and format version, and optional lists of default on/off features."}

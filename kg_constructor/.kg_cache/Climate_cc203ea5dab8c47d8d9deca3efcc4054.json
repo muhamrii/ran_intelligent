@@ -1,0 +1,1 @@
+{"schema_fp": "cc203ea5dab8c47d8d9deca3efcc4054", "description": "The `Climate` table stores climate control information for a specific cell site, including timestamp, location, cell ID, data type, version, climate ID, control mode, thresholds, availability status, and fan speed settings."}

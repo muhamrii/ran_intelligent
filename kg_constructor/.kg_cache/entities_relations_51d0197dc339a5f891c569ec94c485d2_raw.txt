@@ -1,0 +1,151 @@
+```json
+{
+  "entities": [
+    {
+      "label": "PmEventSigM",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "PmEventSigM.userLabel",
+        "PmEventSigM.pmEventSigMId"
+      ]
+    },
+    {
+      "label": "PmEventM",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "PmEventM.pmEventMId"
+      ]
+    },
+    {
+      "label": "LogM",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "LogM.logMId",
+        "LogM.nodeCredential",
+        "LogM.trustCategory",
+        "LogM.reportProgress"
+      ]
+    },
+    {
+      "label": "Pm",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "vsDataFormatVersion"
+      ]
+    },
+    {
+      "label": "Fm",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "Fm.heartbeatInterval",
+        "Fm.fmId"
+      ]
+    },
+    {
+      "label": "Lm",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "Lm.lastInventoryChange",
+        "Lm.referenceToLicenseServer",
+        "Lm.fingerprint",
+        "Lm.fingerprintUpdateable",
+        "Lm.lmState",
+        "Lm.lastLicenseInventoryRefresh",
+        "Lm.lmId"
+      ]
+    },
+    {
+      "label": "HealthCheckM",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "HealthCheckM.supportedCategories",
+        "HealthCheckM.lastExecutedJob",
+        "HealthCheckM.healthCheckMId",
+        "HealthCheckM.lastStatus",
+        "HealthCheckM.maxNoOfReportFiles",
+        "HealthCheckM.lastUpdateTime"
+      ]
+    },
+    {
+      "label": "BrM",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "BrM.brMId",
+        "BrM.exportPackageLabelPrefix"
+      ]
+    },
+    {
+      "label": "HwInventory",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "HwInventory.hwInventoryId",
+        "HwInventory.timeOfLatestInvChange"
+      ]
+    },
+    {
+      "label": "AnrFunctionNR",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion"
+      ]
+    }
+  ],
+  "relationships": []
+}
+```

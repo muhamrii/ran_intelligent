@@ -1,0 +1,1 @@
+{"schema_fp": "17e81e7f2b9eff981dd87ad8b2fac7c9", "description": "S1UTermination:  Table recording S1-U termination events, including timestamps, location (Area_Name & CellId), unique identifiers (Id2, Id3, s1UTerminationId), and data versioning information."}

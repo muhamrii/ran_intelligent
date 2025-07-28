@@ -1,0 +1,150 @@
+```json
+{
+  "entities": [
+    {
+      "label": "NrdcSnTermination",
+      "properties": [
+        "dateTIme",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "NrdcSnTermination.reservedBy",
+        "NrdcSnTermination.defaultNrdcSnTerm",
+        "NrdcSnTermination.nrdcSnTerminationId"
+      ]
+    },
+    {
+      "label": "NRCellCU",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "NRCellCU.transmitSib2",
+        "NRCellCU.userLabel",
+        "NRCellCU.threshServingLowP"
+      ]
+    },
+    {
+      "label": "UeCC",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "UeCC.ueCCId"
+      ]
+    },
+    {
+      "label": "SecurityHandling",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "SecurityHandling.integrityProtectAlgoPrio",
+        "SecurityHandling.personalDataProtectionEnabled",
+        "SecurityHandling.securityHandlingId"
+      ]
+    },
+    {
+      "label": "NrdcControl",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "NrdcControl.nrdcControlId"
+      ]
+    },
+    {
+      "label": "EUtraNetwork",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "EUtraNetwork.userLabel",
+        "EUtraNetwork.eUtraNetworkId"
+      ]
+    },
+    {
+      "label": "NRNetwork",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "NRNetwork.nRNetworkId",
+        "NRNetwork.simpleNRFreqSmtc"
+      ]
+    },
+    {
+      "label": "QciProfileEndcConfigExt",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "QciProfileEndcConfigExt.qciProfileEndcConfigExtId",
+        "QciProfileEndcConfigExt.initialUplinkConf",
+        "QciProfileEndcConfigExt.ulDataSplitThreshold"
+      ]
+    },
+    {
+      "label": "Mdt",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "Mdt.userLabel",
+        "Mdt.mdtId"
+      ]
+    },
+    {
+      "label": "ExternalPower",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "ExternalPower.availabilityStatus",
+        "ExternalPower.operationalState",
+        "ExternalPower.externalPowerId"
+      ]
+    }
+  ],
+  "relationships": []
+}
+```

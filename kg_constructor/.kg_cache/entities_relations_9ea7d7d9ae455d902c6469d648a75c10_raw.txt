@@ -1,0 +1,59 @@
+```json
+{
+  "entities": [
+    {
+      "label": "SharingGroup",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "SharingGroup.schedPolicy",
+        "SharingGroup.gUtranCellRelationRef",
+        "SharingGroup.userLabel",
+        "SharingGroup.sharingGroupId",
+        "SharingGroup.eUtranCellRef"
+      ]
+    },
+    {
+      "label": "Trx",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "Trx.rfBranchRxRef",
+        "Trx.userLabel",
+        "Trx.combinedCellType",
+        "Trx.reservedMaxTxPower"
+      ]
+    },
+    {
+      "label": "AbisIp",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "AbisIp.userLabel",
+        "AbisIp.gsmSectorName",
+        "AbisIp.initialRetransmissionPeriod",
+        "AbisIp.administrativeState"
+      ]
+    }
+  ],
+  "relationships": []
+}
+```

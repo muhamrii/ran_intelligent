@@ -1,0 +1,267 @@
+```json
+{
+  "entities": [
+    {
+      "label": "AntennaNearUnit",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "AntennaNearUnit.uploadState",
+        "AntennaNearUnit.installersId",
+        "AntennaNearUnit.configuredAisgVersion",
+        "AntennaNearUnit.serialNumber",
+        "AntennaNearUnit.onUnitUniqueId",
+        "AntennaNearUnit.productNumber",
+        "AntennaNearUnit.configurationChecksum",
+        "AntennaNearUnit.antennaNearUnitId",
+        "AntennaNearUnit.baseStationId",
+        "AntennaNearUnit.fieldReplaceableUnitRef",
+        "AntennaNearUnit.antennaUnitRef",
+        "AntennaNearUnit.iuantDeviceType",
+        "AntennaNearUnit.rfPortRef",
+        "AntennaNearUnit.administrativeState",
+        "AntennaNearUnit.selfTestStatus",
+        "AntennaNearUnit.hardwareVersion",
+        "AntennaNearUnit.powerModeValues",
+        "AntennaNearUnit.uniqueId",
+        "AntennaNearUnit.softwareVersion"
+      ]
+    },
+    {
+      "label": "Transceiver",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "Transceiver.mechanicalAntennaTilt",
+        "Transceiver.microSleepTxRadioCapability",
+        "Transceiver.ulFrequencyRanges",
+        "Transceiver.microSleepTxRadioStatus",
+        "Transceiver.totalTilt",
+        "Transceiver.minTotalTilt",
+        "Transceiver.operationalState",
+        "Transceiver.availabilityStatus",
+        "Transceiver.transceiverId",
+        "Transceiver.maxTotalTilt",
+        "Transceiver.dlFrequencyRanges",
+        "Transceiver.retSubUnitRef"
+      ]
+    },
+    {
+      "label": "EnergyMeter",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "EnergyMeter.energyMeterEnabled",
+        "EnergyMeter.unitInformation",
+        "EnergyMeter.consumedEnergyMeasurementRef",
+        "EnergyMeter.energyMeterId"
+      ]
+    },
+    {
+      "label": "RfPort",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "RfPort.userLabel",
+        "RfPort.pimdAlarmActive",
+        "RfPort.vswrSupervisionActive",
+        "RfPort.rfPortId",
+        "RfPort.nodeUniqueRfPortId",
+        "RfPort.pimdMeasDuration",
+        "RfPort.pimdThreshold",
+        "RfPort.rlFreqSweepFailedReason",
+        "RfPort.dlFrequencyRanges",
+        "RfPort.antennaSupervisionActive",
+        "RfPort.microSleepTxRadioCapability",
+        "RfPort.ulFrequencyRanges",
+        "RfPort.microSleepTxRadioStatus",
+        "RfPort.administrativeState",
+        "RfPort.rlFreqSweepStatus",
+        "RfPort.automaticANUrecovery",
+        "RfPort.availabilityStatus",
+        "RfPort.operationalState",
+        "RfPort.vswrSupervisionSensitivity"
+      ]
+    },
+    {
+      "label": "HereIAmIndication",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "HereIAmIndication.hereIAmIndicationId",
+        "HereIAmIndication.hereIAmIndicationState"
+      ]
+    },
+    {
+      "label": "SfpModule",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "SfpModule.sfpModuleId",
+        "SfpModule.administrativeState"
+      ]
+    },
+    {
+      "label": "TnPort",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "TnPort.userLabel",
+        "TnPort.sfpModuleRef",
+        "TnPort.reservedBy",
+        "TnPort.channelRef",
+        "TnPort.tnPortId"
+      ]
+    },
+    {
+      "label": "SyncPort",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "SyncPort.userLabel",
+        "SyncPort.syncPortId",
+        "SyncPort.reservedBy"
+      ]
+    },
+    {
+      "label": "BbProcessingResource",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "Id4",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "BbProcessingResource.licPrbUnit",
+        "BbProcessingResource.bbProcessingResourceId",
+        "BbProcessingResource.dlBbCapacityNet",
+        "BbProcessingResource.licCapDistr",
+        "BbProcessingResource.dlBbCapacityMaxLimit",
+        "BbProcessingResource.ulBbCapacityMaxLimit",
+        "BbProcessingResource.ulBbCapacityNet"
+      ]
+    },
+    {
+      "label": "MpProcessingResource",
+      "properties": []
+    }
+  ],
+  "relationships": [
+    {
+      "start_label": "AntennaNearUnit",
+      "end_label": "RfPort",
+      "type": "HAS"
+    },
+    {
+      "start_label": "Transceiver",
+      "end_label": "RfPort",
+      "type": "USES"
+    },
+    {
+      "start_label": "AntennaNearUnit",
+      "end_label": "Cell",
+      "type": "LOCATED_IN"
+    },
+    {
+      "start_label": "Transceiver",
+      "end_label": "Cell",
+      "type": "LOCATED_IN"
+    },
+    {
+      "start_label": "EnergyMeter",
+      "end_label": "Cell",
+      "type": "LOCATED_IN"
+    },
+    {
+      "start_label": "RfPort",
+      "end_label": "Cell",
+      "type": "LOCATED_IN"
+    },
+    {
+      "start_label": "HereIAmIndication",
+      "end_label": "Cell",
+      "type": "ORIGINATES_FROM"
+    },
+    {
+      "start_label": "SfpModule",
+      "end_label": "Cell",
+      "type": "LOCATED_IN"
+    },
+    {
+      "start_label": "TnPort",
+      "end_label": "Cell",
+      "type": "LOCATED_IN"
+    },
+    {
+      "start_label": "SyncPort",
+      "end_label": "Cell",
+      "type": "LOCATED_IN"
+    },
+    {
+      "start_label": "BbProcessingResource",
+      "end_label": "Cell",
+      "type": "ASSOCIATED_WITH"
+    },
+    {
+      "start_label": "MpProcessingResource",
+      "end_label": "Cell",
+      "type": "ASSOCIATED_WITH"
+    },
+    {
+      "start_label": "TnPort",
+      "end_label": "SfpModule",
+      "type": "BELONGS_TO"
+    }
+  ]
+}
+```

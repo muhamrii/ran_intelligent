@@ -1,0 +1,174 @@
+```json
+{
+  "entities": [
+    {
+      "label": "PowerSaving",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "PowerSaving.bbPowerSavingsEnabled",
+        "PowerSaving.powerSavingId"
+      ]
+    },
+    {
+      "label": "CpriLinkSupervision",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "CpriLinkFilterTime",
+        "CpriLinkSupervision.cpriLinkSupervisionId"
+      ]
+    },
+    {
+      "label": "OnSiteActivities",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "OnSiteActivities.technicianPresent",
+        "OnSiteActivities.onSiteActivitiesId"
+      ]
+    },
+    {
+      "label": "ServiceDiscovery",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "ServiceDiscovery.serviceDiscoveryId",
+        "ServiceDiscovery.localAddress",
+        "ServiceDiscovery.secondaryGsds",
+        "ServiceDiscovery.nodeCredential",
+        "ServiceDiscovery.primaryGsds",
+        "ServiceDiscovery.trustCategory",
+        "ServiceDiscovery.statusSecondary",
+        "ServiceDiscovery.statusPrimary"
+      ]
+    },
+    {
+      "label": "LicenseSupport",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "LicenseSupport.licenseSupportId",
+        "LicenseSupport.reportProgress"
+      ]
+    },
+    {
+      "label": "OamIpSupport",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "OamIpSupport.ipAddressChangeStatus",
+        "OamIpSupport.oamIpSupportId"
+      ]
+    },
+    {
+      "label": "AutoEsiM",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "AutoEsiM.userLabel",
+        "AutoEsiM.autoEsiMId"
+      ]
+    },
+    {
+      "label": "ConsumedEnergyMeasurement",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "ConsumedEnergyMeasurement.totalNumberOfUnits",
+        "ConsumedEnergyMeasurement.consumedEnergyMeasurementId",
+        "ConsumedEnergyMeasurement.reservedBy",
+        "ConsumedEnergyMeasurement.noOfContributingUnits"
+      ]
+    },
+    {
+      "label": "SectorEquipmentFunction",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "SectorEquipmentFunction.userLabel",
+        "SectorEquipmentFunction.rfBranchRef",
+        "SectorEquipmentFunction.noiseFigure",
+        "SectorEquipmentFunction.sectorEquipmentFunctionId",
+        "SectorEquipmentFunction.nRFqBands",
+        "SectorEquipmentFunction.radioEquipmentOrdering",
+        "SectorEquipmentFunction.eUtranFqBands",
+        "SectorEquipmentFunction.administrativeState",
+        "SectorEquipmentFunction.reservedBy",
+        "SectorEquipmentFunction.availabilityStatus",
+        "SectorEquipmentFunction.operationalState",
+        "SectorEquipmentFunction.utranFddFqBands",
+        "SectorEquipmentFunction.geranFqBands"
+      ]
+    },
+    {
+      "label": "EquipmentDiscovery",
+      "properties": [
+        "dateTime",
+        "Area_Name",
+        "CellId",
+        "Id2",
+        "Id3",
+        "vsDataType",
+        "vsDataFormatVersion",
+        "EquipmentDiscovery.sftpServerIpAddress",
+        "EquipmentDiscovery.sftpPassword",
+        "EquipmentDiscovery.portConfiguration",
+        "EquipmentDiscovery.equipmentDiscoveryStatus",
+        "EquipmentDiscovery.autoCreateAisgUnits",
+        "EquipmentDiscovery.sftpServerPath",
+        "EquipmentDiscovery.antennaDeviceScanInBackground",
+        "EquipmentDiscovery.equipmentDiscoveryId",
+        "EquipmentDiscovery.portVoltage",
+        "EquipmentDiscovery.sftpUsername"
+      ]
+    }
+  ],
+  "relationships": []
+}
+```
