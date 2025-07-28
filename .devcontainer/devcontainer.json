@@ -1,0 +1,55 @@
+{
+  "name": "RAN Intelligent Management System",
+  // Use the Dockerfile to build the image
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "workspaceFolder": "/workspaces/ran_intelligent",
+
+  "features": {
+    // Set Python feature version to "none" because Python is already in the base image
+    // and we just want the tools/extensions from this feature.
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "none"
+    }
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter",
+        "humao.rest-client",
+        "redhat.vscode-yaml",
+        "neo4j.vscode-neo4j" // Add the Neo4j VS Code extension
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "python.testing.pytestEnabled": true
+      }
+    }
+  },
+
+  "containerEnv": {
+    // Set Neo4j password via environment variable.
+    // IMPORTANT: For production, use a GitHub Codespaces Secret named NEO4J_PASSWORD
+    // and set this to "NEO4J_AUTH": "neo4j/${NEO4J_PASSWORD}"
+    "NEO4J_AUTH": "neo4j/ranqarag#1" // <<< CRITICAL: CHANGE THIS PASSWORD!
+  },
+
+  "forwardPorts": [7474, 7687], // Neo4j Browser (HTTP) and Bolt (binary) ports
+
+  // Start Neo4j and then install Python dependencies.
+  // We use 'sudo -u vscode' to ensure Neo4j starts as the 'vscode' user,
+  // which has permissions to its installation directory.
+  "postCreateCommand": "sudo -u /opt/neo4j/bin/neo4j start && pip install --upgrade pip && pip install -r requirements.txt",
+
+  // Mount a volume to persist Neo4j data.
+  // The target path should match the `dbms.directories.data` setting in neo4j.conf,
+  // which defaults to 'data' relative to NEO4J_HOME, so /opt/neo4j/data.
+  "mounts": [
+    "source=ran-qa-rag-neo4j-data,target=/opt/neo4j/data,type=volume"
+  ]
+}
