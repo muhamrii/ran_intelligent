@@ -1,0 +1,24 @@
+# Python cache and compiled files
+__pycache__/
+*.pyc
+
+# Environment and config files
+.env
+.envrc
+config.env
+config.yaml
+
+# Databases and logs
+*.db
+*.sqlite
+*.log
+
+
+# Data files
+*.csv
+*.xml
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Node.js dependencies (if
