@@ -44,7 +44,7 @@
   // Start Neo4j and then install Python dependencies.
   // We use 'sudo -u vscode' to ensure Neo4j starts as the 'vscode' user,
   // which has permissions to its installation directory.
-  "postCreateCommand": "sudo -u /opt/neo4j/bin/neo4j start && pip install --upgrade pip && pip install -r requirements.txt",
+  "postCreateCommand": "sudo -u /opt/neo4j/bin/neo4j start && pip install --upgrade pip && pip install -r /workspaces/ran_intelligent/requirements.txt",
 
   // Mount a volume to persist Neo4j data.
   // The target path should match the `dbms.directories.data` setting in neo4j.conf,
