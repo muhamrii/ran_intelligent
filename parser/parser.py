@@ -3,6 +3,9 @@ Parse 3GPP XML/CSV RAN files, extract metadata into Pandas DataFrames.
 """
 import pandas as pd
 import xml.etree.ElementTree as ET
+import nlpaug.augmenter.word as naw
+from nlpaug.augmenter.word import ContextualWordEmbsAug
+
 
 def parse_csv(file_path):
     # Dummy function for CSV parsing
@@ -14,6 +17,7 @@ def parse_xml(file_path):
       - A dictionary of DataFrames (dfs)
       - Detailed metadata (metadata)
       - Simplified metadata (metadata2)
+      - NER dataset (ner_dataset)
     """
     def clean_tag(tag):
         return tag.split('}')[-1] if '}' in tag else tag
@@ -45,6 +49,14 @@ def parse_xml(file_path):
 
     dfs_data = {}
     metadata = {}
+    ner_dataset = []
+
+    entity_to_label = {
+        "B-TABLE": 1,
+        "B-COLUMN": 2,
+        "B-VALUE": 3,
+        "O": 0  # Outside any entity
+    }
 
     # Extract global date from fileFooter (if present)
     date = ''
@@ -147,6 +159,105 @@ def parse_xml(file_path):
                                     update_metadata(table_name, row)
                                     dfs_data.setdefault(table_name, []).append(row)
 
+    # Create NER dataset
+    for table_name, rows in dfs_data.items():
+        for row in rows:
+            # Ensure the row is a dictionary
+            if not isinstance(row, dict):
+                print(f"Skipping invalid row in table '{table_name}': {row}")
+                continue
+
+            tokens = []
+            ner_tags = []
+
+            # Add table name as a token
+            tokens.append(table_name)
+            ner_tags.append(entity_to_label["B-TABLE"])
+
+            # Add columns and values as tokens
+            for column, value in row.items():
+                tokens.append(column)
+                ner_tags.append(entity_to_label["B-COLUMN"])
+                tokens.append(value)
+                ner_tags.append(entity_to_label["B-VALUE"])
+
+            # Append the sample to the dataset
+            ner_dataset.append({"tokens": tokens, "ner_tags": ner_tags})
+
+    # Calculate the required number of O and Time-Related tokens
+    b_column_count = sum(1 for sample in ner_dataset for tag in sample["ner_tags"] if tag == entity_to_label["B-COLUMN"])
+    required_count = int(b_column_count * 1.1)  # 110% of B-COLUMN count
+
+    # Add variative 'O' tokens using NLPAug
+    aug = ContextualWordEmbsAug(model_path='bert-base-uncased', action="substitute")
+    o_token_count = 0
+    while o_token_count < required_count:
+        try:
+            # Generate a variative sentence
+            augmented_output = aug.augment("This is a random sentence.")
+            
+            # Ensure the output is a string
+            if isinstance(augmented_output, list):
+                sentence = " ".join(augmented_output)  # Join list into a single string
+            else:
+                sentence = augmented_output
+            
+            tokens = sentence.split()
+            
+            # Ensure the tokens are valid and non-empty
+            if tokens:
+                ner_tags = [entity_to_label["O"]] * len(tokens)
+                ner_dataset.append({"tokens": tokens, "ner_tags": ner_tags})
+                o_token_count += len(tokens)
+        except Exception as e:
+            print(f"Error during augmentation: {e}")
+            break
+
+    # Ensure the total count of O tokens is logged
+    print(f"Total O tokens added: {o_token_count}")
+
+    # Add time-related tokens (new classified NER)
+    time_related_tokens = [
+        {"tokens": ["2025-07-28", "12:00", "PM"], "ner_tags": [4, 4, 4]},
+        {"tokens": ["July", "28th", "2025"], "ner_tags": [4, 4, 4]},
+        {"tokens": ["today"], "ner_tags": [4]},
+        {"tokens": ["tomorrow"], "ner_tags": [4]},
+        {"tokens": ["yesterday"], "ner_tags": [4]},
+        {"tokens": ["next", "week"], "ner_tags": [4, 4]},
+        {"tokens": ["last", "month"], "ner_tags": [4, 4]},
+        {"tokens": ["in", "two", "days"], "ner_tags": [4, 4, 4]},
+        {"tokens": ["three", "hours", "ago"], "ner_tags": [4, 4, 4]},
+        {"tokens": ["next", "Monday"], "ner_tags": [4, 4]},
+        {"tokens": ["this", "morning"], "ner_tags": [4, 4]},
+        {"tokens": ["tonight"], "ner_tags": [4]},
+        {"tokens": ["at", "noon"], "ner_tags": [4, 4]},
+        {"tokens": ["midnight"], "ner_tags": [4]},
+    ]
+
+    # Add all months
+    months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+    for month in months:
+        time_related_tokens.append({"tokens": [month], "ner_tags": [4]})
+
+    # Add all days of the week
+    days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+    for day in days:
+        time_related_tokens.append({"tokens": [day], "ner_tags": [4]})
+
+    # Add quarters
+    quarters = ["Q1", "Q2", "Q3", "Q4"]
+    for quarter in quarters:
+        time_related_tokens.append({"tokens": [quarter], "ner_tags": [4]})
+
+    time_related_count = sum(len(sample["tokens"]) for sample in time_related_tokens)
+
+    # Add more time-related tokens if needed to meet the required count
+    while o_token_count + time_related_count < required_count:
+        time_related_tokens.append({"tokens": ["2025", "07", "28"], "ner_tags": [4, 4, 4]})
+        time_related_count += 3
+
+    ner_dataset.extend(time_related_tokens)
+
     dfs = {table: pd.DataFrame(rows) for table, rows in dfs_data.items()}
     metadata2 = {table: list(details["parameters"].keys()) for table, details in metadata.items()}
-    return dfs, metadata, metadata2
+    return dfs, metadata, metadata2, ner_dataset
